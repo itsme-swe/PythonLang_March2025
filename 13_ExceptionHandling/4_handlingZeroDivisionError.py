@@ -20,5 +20,5 @@ b = int(input("Enter the value of b: "))
 try:
     c = div(a, b)
     print(c)
-except:
-    print("ZeroDivisionError")
+except ZeroDivisionError as err:
+    print(err)
