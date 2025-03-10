@@ -22,3 +22,4 @@ try:
     print(c)
 except ZeroDivisionError as err:
     print(err)
+ 
