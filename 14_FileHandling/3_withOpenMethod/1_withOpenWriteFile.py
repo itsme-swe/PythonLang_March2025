@@ -11,3 +11,7 @@ with open("contact.txt", "w") as f1:
             carOwned: Audi
             """
     )
+
+print(f1.name)  # contact.txt
+print(f1.mode)  # w
+print(f1.closed)  # True
