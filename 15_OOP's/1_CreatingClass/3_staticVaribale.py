@@ -1,6 +1,6 @@
 class Rectangle:
-
-    count = 0  # static / calss variable
+    # Class variable
+    count = 0
 
     def __init__(self, l, b):
 
@@ -27,4 +27,4 @@ r1 = Rectangle(10, 5)
 r2 = Rectangle(20, 15)
 r3 = Rectangle(30, 5)
 
-print(Rectangle.count)  # 3 ... Here we are calling class method 
+print(Rectangle.count)  # 3 ... Here we are calling class method
