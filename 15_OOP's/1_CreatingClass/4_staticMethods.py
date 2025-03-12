@@ -18,16 +18,21 @@ class Rectangle:
         return self.length * self.breadth
 
     @classmethod
-    def countRectangle(Rectangle):
+    def countRectangle(cls):
 
-        print(Rectangle.count)
+        print(cls.count)
 
     @staticmethod
     def isSquare(len, bre):
 
+        print(Rectangle.count)  # static method can access class variable
         return len == bre
 
 
 r1 = Rectangle(10, 10)
 
-print(Rectangle.isSquare(10, 5))  # False 
+print(Rectangle.isSquare(10, 5))  # False
+
+"""
+🔸 Static methods do not rely on instance variables, but they can access class variables if explicitly referenced.
+"""

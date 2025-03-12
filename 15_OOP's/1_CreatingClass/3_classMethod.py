@@ -18,9 +18,9 @@ class Rectangle:
         return self.length * self.breadth
 
     @classmethod
-    def countRectangle(Rectangle):
+    def countRectangle(cls):
 
-        print(Rectangle.count)
+        print(cls.count)
 
 
 r1 = Rectangle(10, 5)
@@ -28,3 +28,7 @@ r2 = Rectangle(20, 15)
 r3 = Rectangle(30, 5)
 
 print(Rectangle.count)  # 3 ... Here we are calling class method
+
+"""
+🔸 Class methods operate on class variables and receive the class itself (cls) as an implicit first parameter, not the class name explicitly.
+"""
