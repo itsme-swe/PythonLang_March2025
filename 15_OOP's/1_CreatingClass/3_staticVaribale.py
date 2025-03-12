@@ -7,7 +7,7 @@ class Rectangle:
         self.length = l
         self.breadth = b
 
-        Rectangle.count += 1  # To access the static variable we need to write "Class_Name.static_Variable"
+        Rectangle.count += 1  # To access the class variable we need to write "Class_Name.static_Variable"
 
     def perimeter(self):
 
