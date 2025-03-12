@@ -9,9 +9,9 @@ def sub(x, y: int) -> int:
     return x - y
 
 
-'''
-🔸 The below code will only execute when we'll this cureent file as program file but if we import this file in some another program the below code will not execute.
-'''
+"""
+🔸 The below code will only execute when we'll run this current file as program file but if we import this file in some another program the below code will not execute.
+"""
 if __name__ == "__main__":
 
     print(__name__)
