@@ -20,3 +20,10 @@ Toy = Toyota()
 Driver(Toy)
 
 # Toyota is driving
+
+print()
+
+cr1 = Creta()
+Driver(cr1)
+
+# Creta is driving
